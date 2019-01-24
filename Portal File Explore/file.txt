@@ -1,0 +1,39 @@
+the concept of string used in c, c++, java, python,etc
+in c and c++ string is considered as character array end with \0
+but in java string considered as object it contains character array
+in case of java there is no \0 at end of string becouse used length property
+using length property we can find number of character in string
+java is network base programming language 
+most frequenctly used datatype of string
+
+java there are rpovide three inbuild classes
+
+1 string
+2 string buffer
+3 string builder
+
+string: string is imutable object menas if try to change containse of string then jvm create new memory and apply changes of that memory
+
+there are three way to create memory
+1) char arr[] = {'H','E','L','L','O'}
+   String str1 = new String(arr)
+   
+2) String str2 = new String("Hello");
+
+3) String str3 = "Hello";
+
+in above syntax when if create string using new key word it becomes string object
+                where if create string without using new keyword it become a string litter
+				
+				we create string using new key word then memory gets allocated inside heap memory section
+				create string using new key word is called as string object'
+				string object non sharable
+				
+				we create string without using new keyword is called as string literal
+				create string without using new keyword memory get allocated inside string constant pool
+				
+				if string create using string literal then JVM first check string available or not
+				if string is available then only increment the refernce cout of same string
+				
+				if string not available in pool the it create new memory of string
+				
